@@ -1,2 +1,8 @@
 # pasta-time
-Investigation in Flask
+Investigation into:
+- HTML
+- CSS
+- Bootstrap
+- Python
+- Flask
+- SQLite
