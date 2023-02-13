@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
+
+:root{
+    --brand-paper:rgb(253,251,227);
+    --brand-green:rgb(167,209,202);
+    --brand-green-pale:rgb(223,237,224);
+}
+
+body{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 100%;
+    background-color: var(--brand-paper);
+}
+
+
+
+.quote{
+        font-size: 2em;
+        text-align: center;
+        font-style: italic;
+        padding: 1em 1em;
+        background-color: rbg(255,255,255);
+        color: rgb(150,150,150);
+    }
+
+.body-text{
+    font-size: 2em;
+    text-align: center;
+    }
+
+h1{
+    font-size: 4em;
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+}
+
+.container-fluid{
+    border: 0px solid blue;
+    padding: 0;
+}
+
+.container-lg{
+    border: 0px solid pink;
+    background-color: rgb(255,255,255);
+    overflow: auto;
+    margin-bottom: 2.5em;
+}
+
+.col-lg-7, .col-lg-5{
+    border: 0px solid red;
+}
+
+.row{
+    border: 0px solid blue;
+}
+
+.part-img{
+    max-width: 75%;
+    margin: auto;
+    display: block;
+}
+
+.nav-bar{
+    background-color: var(--brand-green);
+    border-bottom: 1px solid black;
+}
+
+.nav-bar:hover{
+    background-color: var(--brand-green-pale);
+}
+
+.nav-link{
+    font-size: 1.5em;
+    color: black;
+}
+
+.nav-link:hover{
+    color: var(--brand-green);
+}
+
+/*
+@media only screen and (max-width: 768px){
+    .body-text, .quote{
+        font-size: 1.5em;
+    }
+    h1{
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .part-img{
+        max-width: 100%;
+        margin: auto;
+        display: block;
+    }
+}
+*/
+.footer-content{
+    background-color: var(--brand-green);
+}
